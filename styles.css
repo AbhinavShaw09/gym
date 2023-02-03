@@ -1,0 +1,130 @@
+*{
+    font-family: 'Baloo Bhai', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('img/man.jpg');
+}
+
+.left{
+    background:transparent;
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 15px;
+    text-align: center;
+}
+
+.middle{
+    display: block;
+    width: 36%;
+    margin:5px auto;
+    background:transparent;
+}
+
+.right{
+    background:transparent;
+    display: inline-block;
+    position: absolute;
+    right: 64px;
+    top: 15px;
+}
+
+.navbar{
+    display: inline-block;
+    background:transparent;
+}
+
+.navbar li{
+    background:transparent;
+    display: inline-block;
+    text-decoration:none; 
+    margin-left: 16px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.navbar ul{
+    background:transparent;
+}
+
+.navbar li a{
+    background:transparent;
+    text-decoration: none;
+}
+
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color:grey;
+}
+
+.left img{
+    background:transparent;
+    width: 57px;
+    filter: invert(100%);
+}
+
+.left .lbtn{
+    background:transparent;
+    text-align:center; 
+    line-height: 9px;
+    font-size: 20px;
+}
+
+.btn{
+    background:transparent;
+    padding: 1px 11px;
+    border: 3px solid rgb(218, 214, 214);
+    border-radius: 20px;
+    font-size:20px;
+    margin: 0px 9px;
+    color: white;
+    background-color:black;
+    cursor:pointer;
+}
+
+.btn:hover {
+    color: rgb(101, 96, 96);
+}
+
+.container {
+    border: 2px solid white;
+    margin: 105px 76px;
+    padding: 62px;
+    width: 25%;
+    border-radius: 30px;
+    background: transparent;
+}
+.container h1{
+    background: transparent;
+    font-size: 24px;
+}
+
+.form-group{
+    background:transparent;
+}
+.form-group input{
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 378px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+    background: transparent;
+    color: white;
+}
+.container form{
+    background: transparent;
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
